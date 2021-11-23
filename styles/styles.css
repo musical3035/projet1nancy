@@ -1,3 +1,60 @@
-h1 {
-    color: blue;
-  }
+
+nav{
+text-align: center;
+}
+
+nav.menu-nav ul li.boutton a{
+  color:white;
+  text-decoration: none;
+  padding-right: 40px;
+  
+}
+  
+nav.menu-nav ul li.boutton{
+  list-style-type: none;
+  display: inline-block;
+  
+}
+
+nav.menu-nav ul li.boutton:hover a{
+  color: burlywood;
+}
+
+.hautgauche a{
+  display: flex;
+  text-align: left;
+  margin:right;
+}
+
+
+  
+body{
+  background-color:#007EF3 ;
+}
+
+p{
+color: white;
+}
+
+section.section-what{
+  color:black;
+}
+
+
+.lala{
+  display: flex;
+}
+
+
+section{
+background-color: pink;
+color: white;
+}
+
+.bas{
+  display: flex;
+}
+
+.bleu{
+  display: flex;
+}
