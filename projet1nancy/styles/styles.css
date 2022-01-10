@@ -1,0 +1,197 @@
+:root {
+box-sizing: border-box;
+}
+
+*{
+box-sizing: inherit;  
+}
+
+
+body{
+ font-family : Roboto;
+ background-color:#007EF3
+
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+h1{
+  color: white;
+  font-size: 14PT
+  width 700; 
+  line-height: 40px
+}
+/*-------------------------------*/
+/*Début Menu dans en-tête-1*/
+nav{
+text-align: center;
+}
+
+ 
+nav.menu-nav ul li.boutton a{
+  color:white;
+  text-decoration: none;
+  padding-right: 40px; 
+}
+  
+nav.menu-nav ul li.boutton{
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav.menu-nav ul li.boutton:hover a{
+  color: burlywood;
+}
+/*Fin Menu dans en-tête-1*/
+/*---------------------------------*/
+
+.entete {
+  display: flex;
+  align-items: center;
+justify-content: space-around
+}
+
+/*logo* en haut à droite*/
+.hautgauche a{
+  display: flex;
+  text-align: left;
+  margin:right;
+}
+
+
+button{
+  background:transparent;
+  border: solid 2 px white;
+  color:white; 
+} 
+
+/*p{
+color: white;
+}*/
+
+.lala{
+  display: flex;
+  justify-content: space-around
+}
+
+/*SECTION 2 MAKE MAGIC ET IMAGE HOMME BUREAU À DROITE*/
+/*TEXTE À GAUCHE we make magic*/
+.wemake{
+display: block;
+padding: 50px; 
+}
+
+.blocimagemanworking{
+  display:bli
+}
+
+
+/* *we make magic!*/
+.sectionwemakemagic-image{
+  display: flex;
+   color: white;
+   padding: 0 50px;
+   text-align: center;
+   object-fit: contain;
+   justify-content: space-evenly;
+}
+
+.find{
+  background-color: grey;
+  color:skyblue
+}
+
+#man{
+  padding: 30px 40px;
+}
+
+
+/*section our values*/
+.section.ourvalues{
+background-color:#007EF3 ;
+color: white;
+text-align: left;
+display:flex;
+padding-left: 0em;
+}
+
+/*texte paragraphe blanc section What do we do*/
+section.section-what{
+  color:black;
+  background-color: white;
+  text-align: center;
+  display:flex;
+  justify-content: space-around
+}
+
+
+/*aside image table et ordi et section our values*/
+.bas{
+  display: flex;
+  margin-block: 40px 20px;
+}
+
+/*.bas li{
+  color:black;
+}*/
+
+.bleu{
+  display: flex;
+  margin-block: 40px;
+  justify-content:space-evenly;
+  background-color: white;
+}
+  .bleu h1{
+    color:black;
+  }
+
+
+  .imagecheveuxbleu{
+    background: turquoise;
+    margin-block:  130px;
+    align-content: center;
+  }
+
+
+  .findouroffices {
+    color : pink;
+    display: flex;
+    margin-block: 100px;
+    background-color: violet;
+  
+  }
+
+
+  .doyouwant{
+    display: flex;
+    background-color:rgb(177, 177, 172);
+    margin-block: 90px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+  }
+/*
+ .doyouwant {
+  align-items: center;
+  background-color: gray;
+  padding: 30px 10px;
+  }
+*/
+
+  .bouton{
+    align-items: center;
+    margin-block: 20px;
+    background-color: pink;
+    padding:20px;
+    justify-content: center;
+    width: 900px;
+    margin: 0 auto;
+
+  }
