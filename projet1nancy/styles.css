@@ -1,0 +1,202 @@
+:root {
+box-sizing: border-box;
+}
+
+body{
+ font-family : 'Roboto', Arial;  /*à verifier, car ça ne marche pas*/
+ background-color:#007EF3;
+ margin: 0;
+}
+
+div.entete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 2;
+  }
+
+/*logo* B_system en haut à droite*/
+.hautgauche a{
+  display: flex;
+  text-align: left;
+  margin:right;
+  flex-grow: 2;
+}
+/*loupe et bouton Your area*/
+div.hautdroit{
+  display:flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageloupe {
+justify-content: flex-start;
+flex-grow: 3;
+text-align: center;
+filter:invert(100%);
+}
+
+/*SECTION BOUTONS*/
+.textYourArea{
+  display:inline-block;
+  padding-bottom: 3px;
+  font-size: 14px;
+  
+}
+
+.boutonYourArea{
+  border-color: black;
+  filter:invert(100%);
+  padding:4px 35px ;
+  display:flex;
+  justify-content: space-between;
+}
+
+button{ /*les 2 bouttons*/
+  background: transparent;
+  border-width: 1.5px;
+  font-weight: bold;
+} 
+
+.bouttonMeatBSystem{
+  filter:invert(100%);
+  border-color: black;
+  padding:11px 50px ;
+}
+
+
+/*Début liste à puces*/
+ nav.menu-nav{
+  flex-grow: 4;
+  text-align: center;
+ }
+
+/*liste a puces du texte dans le menu en-tête*/
+nav.menu-nav ul li.boutton a{
+  font-family : Roboto;
+  color:white;
+  text-decoration: none;
+  list-style-type: none;
+}
+  /*disposition des puces du menu en-tête*/
+nav.menu-nav ul li.boutton{
+  display: inline-block;
+  padding-right: 40px; 
+}
+
+
+/*SECTION 2 MAKE MAGIC ET IMAGE HOMME BUREAU À DROITE*/
+/* Texte we make magic!*/
+.sectionwemakemagic-image{
+  display: flex;
+  color: white;
+  padding: 0 50px;
+  text-align: left;
+  object-fit: contain;
+  justify-content: space-evenly;
+}
+
+/*paragraphe texte du We make magic et How do we do it */
+p{ 
+  font-size: 15px;
+}
+
+/*zone entourant la section We make magic!*/
+.wemake{
+display: block;
+padding: 50px; 
+}
+
+/*bloc de l'image de l'homme en haut à droite*/
+.blocimagemanworking{
+  display:bli
+}
+
+
+/*texte paragraphe blanc section What do we do*/
+section.section-what{
+  color:black;
+  background-color: white;
+  text-align: center;
+  display:flex;
+  justify-content: space-around
+}
+
+
+
+/*section How do we do it et image à droite*/
+.lala{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}  
+
+/*Texte How do we do it?*/
+ .lala h2{
+  font-size: 32px; 
+ }
+
+ /*texte learn more section How do we do it*/
+ .paragraphe{
+  font-weight: bold;
+}
+
+
+/*aside image table et ordi et section Our values*/
+.bas{
+  display: flex;
+  margin-block: 40px 20px;
+  font-family: Roboto, Arial;
+  color: white;
+  justify-content: space-evenly;
+}
+
+/*section our values*/
+.section.ourvalues{
+background-color:#007EF3 ;
+color: white;
+text-align: left;
+display:flex;
+padding-left: 0em;
+}
+
+
+/*section Contact us et numéro d'urgence*/
+.bleu{
+  display: flex;
+  margin-block: 40px;
+  justify-content:space-evenly;
+  background-color: white;
+}
+/*titre Contact us!*/
+  .bleu h1{
+    color:black;
+  }
+
+/*caré avec les numéros d'urgence en turquoise*/
+  .imagecheveuxbleu{
+    background: turquoise;
+    margin-block:  130px;
+    align-content: center;
+  }
+
+/*section trouver en gris*/
+.find{
+  background-color: grey;
+  color:skyblue
+}
+
+/*section du bas de la page*/
+  .doyouwant{
+    display: flex;
+    background-color:rgb(177, 177, 172);
+    margin-block: 90px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+  }
+
+
